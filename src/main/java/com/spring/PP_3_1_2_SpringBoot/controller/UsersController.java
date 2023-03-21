@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.*;
 
 public class UsersController {
     private UserService userService;
-@Autowired
     public UsersController(UserService userService) {
         this.userService = userService;
     }
